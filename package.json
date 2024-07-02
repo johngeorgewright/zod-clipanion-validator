@@ -1,7 +1,7 @@
 {
   "name": "zod-clipanion-validator",
   "version": "3.1.1",
-  "description": "TypeScript library template",
+  "description": "Use Zod for you Clipanion validators",
   "type": "module",
   "sideEffects": false,
   "main": "./dist/common/index.js",
