@@ -8797,7 +8797,7 @@ __metadata:
     vitest: "npm:1.6.0"
     zod: "npm:3.23.8"
   peerDependencies:
-    typanion: ^5.0.0
+    typanion: ^3.0.0
     zod: ^3.0.0
   languageName: unknown
   linkType: soft
