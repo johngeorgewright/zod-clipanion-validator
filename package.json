@@ -1,6 +1,6 @@
 {
   "name": "zod-clipanion-validator",
-  "version": "3.1.1",
+  "version": "1.0.0",
   "description": "Use Zod for you Clipanion validators",
   "type": "module",
   "sideEffects": false,
