@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [18.x, 20.x]
+        node-version: [18, 20, 22]
 
     steps:
       - name: Checkout project
@@ -48,7 +48,7 @@ jobs:
       - name: Checkout project
         uses: actions/checkout@v4
         with:
-          path: ts-module
+          path: zod-clipanion-validator
 
       - name: Checkout project
         uses: actions/checkout@v4
@@ -60,8 +60,8 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: Build ts-module
-        working-directory: ts-module
+      - name: Build zod-clipanion-validator
+        working-directory: zod-clipanion-validator
         run: | # shell
           yarn --immutable
           yarn build
@@ -73,14 +73,14 @@ jobs:
           mv package-rename.json package.json
           yarn --no-immutable
 
-      - name: Install ts-module
+      - name: Install zod-clipanion-validator
         working-directory: test-project
         run: | # shell
-          yarn link --private ../ts-module
-          cat package.json | jq '.dependencies["@johngeorgewright/ts-module"] = "*"' > package-dep.json
+          yarn link --private ../zod-clipanion-validator
+          cat package.json | jq '.dependencies["zod-clipanion-validator"] = "*"' > package-dep.json
           mv package-dep.json package.json
           yarn --no-immutable
 
-      - name: Test ts-module as an install module
+      - name: Test zod-clipanion-validator as an install module
         working-directory: test-project
         run: yarn test

@@ -1,8 +1,7 @@
 {
-  "name": "@johngeorgewright/ts-module",
+  "name": "zod-clipanion-validator",
   "version": "3.1.1",
-  "description": "TypeScript library template",
-  "private": true,
+  "description": "Use Zod for you Clipanion validators",
   "type": "module",
   "sideEffects": false,
   "main": "./dist/common/index.js",
@@ -12,19 +11,19 @@
     "clean": "rimraf dist",
     "prepare": "husky install",
     "start": "concurrently --names es 'yarn tsc --watch --preserveWatchOutput'",
-    "test": "yarn ts-node-test test"
+    "test": "vitest test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johngeorgewright/ts-module.git"
+    "url": "git+https://github.com/johngeorgewright/zod-clipanion-validator.git"
   },
   "keywords": [],
   "author": "John Wright <johngeorge.wright@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/johngeorgewright/ts-module/issues"
+    "url": "https://github.com/johngeorgewright/zod-clipanion-validator/issues"
   },
-  "homepage": "https://github.com/johngeorgewright/ts-module#readme",
+  "homepage": "https://github.com/johngeorgewright/zod-clipanion-validator#readme",
   "devDependencies": {
     "@commitlint/cli": "19.3.0",
     "@commitlint/config-conventional": "19.2.2",
@@ -37,6 +36,7 @@
     "@types/node": "20.14.9",
     "@types/semantic-release": "20.0.6",
     "@types/source-map-support": "0.5.10",
+    "clipanion": "4.0.0-rc.3",
     "commitizen": "4.3.0",
     "concurrently": "8.2.2",
     "cz-conventional-changelog": "3.3.0",
@@ -50,7 +50,10 @@
     "source-map-support": "0.5.21",
     "ts-node": "10.9.2",
     "ts-node-test": "0.4.3",
-    "typescript": "5.5.3"
+    "typanion": "3.14.0",
+    "typescript": "5.5.3",
+    "vitest": "1.6.0",
+    "zod": "3.23.8"
   },
   "lint-staged": {
     "*.{md,json,js,jsx,ts,tsx,yml,yaml}": [
@@ -63,7 +66,11 @@
     }
   },
   "dependencies": {
-    "tslib": "2.6.3"
+    "tslib": "^2.6.3"
+  },
+  "peerDependencies": {
+    "typanion": "^5.0.0",
+    "zod": "^3.0.0"
   },
   "packageManager": "yarn@4.3.1"
 }

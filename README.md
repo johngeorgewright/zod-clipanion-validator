@@ -1,24 +1,33 @@
-# @johngeorgewright/ts-module
+# zod-clipanion-validator
 
-This is a template repository for creating a NPM package with TypeScript.
+> Use Zod for you Clipanion validators
 
-## Setting up
+## Usage
 
-1. Change all references of `@johngeorgewright/ts-module` to your new package name
-1. Also search for references to `@johngeorgewright` & `ts-module` individually
-1. Remove the `private` property from `package.json` (if you want to publically publish your module)
-1. Search for all references of `secrets.` in the `.github` diectory and make sure you have the appropriate secrets registered in GitHub (Your Repo > Settings > Secrets)
-1. Delete the .github/dependabot.yml file (unless you wish to use that instead of renovate)
-1. Ammend the LICENSE with your name
-1. If your packages are to be published publically, change the publish command in `release.config.js` to `yarn npm publish --access public`
+```typescript
+import { Cli, Command, Option } from 'clipanion'
+import { z } from 'zod'
+import { zodClipanionValidator } from 'zod-clipanion-validator'
 
-## Dependency management
+class MyCommand extends Command {
+  static override paths = [['my-command']]
 
-By default, this project's dependencies is kept up-to-date with [renovate](https://www.mend.io/free-developer-tools/renovate/). This project may also be set-up for dependabot too. To do so:
+  static override usage = Command.Usage({
+    description: 'a test command',
+  })
 
-1. Remove the `renovate.json` file
-1. `mv .github/.dependabot.yml .github/dependabot.yml`
+  url = Option.String('-u,--url', {
+    required: true,
+    validator: zodClipanionValidator(z.string().url()),
+  })
 
-## ES & CommonJS Modules
+  number = Option.String('-n,--number', {
+    required: true,
+    validator: zodClipanionValidator(z.coerce.number()),
+  })
 
-This template is designed to help create libraries that produce both ES and CommonJS modules. It will create both the CommonJS and ESM distribution files.
+  override async execute() {
+    // ...
+  }
+}
+```
