@@ -47,7 +47,7 @@ const RAW_RUNTIME_STATE =
           ["nodemon", "npm:3.1.4"],\
           ["prettier", "npm:3.3.2"],\
           ["renamer", "npm:5.0.1"],\
-          ["rimraf", "npm:5.0.7"],\
+          ["rimraf", "npm:5.0.9"],\
           ["semantic-release", "npm:24.0.0"],\
           ["source-map-support", "npm:0.5.21"],\
           ["ts-node", "virtual:52cb19500d8a042da63512d919d2be0eeb5288c9f30b94ca77b3ed303f9b3366459934089e787f4be3772ec864b413f0d10930b0a14f66bc7eb0e6f7fbb93921#npm:10.9.2"],\
@@ -7758,10 +7758,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:5.0.7", {\
-        "packageLocation": "./.yarn/cache/rimraf-npm-5.0.7-5c7aa1db5b-1e3cecfe59.zip/node_modules/rimraf/",\
+      ["npm:5.0.9", {\
+        "packageLocation": "./.yarn/cache/rimraf-npm-5.0.9-a8231bd2f9-443669809c.zip/node_modules/rimraf/",\
         "packageDependencies": [\
-          ["rimraf", "npm:5.0.7"],\
+          ["rimraf", "npm:5.0.9"],\
           ["glob", "npm:10.3.10"]\
         ],\
         "linkType": "HARD"\
@@ -9786,7 +9786,7 @@ const RAW_RUNTIME_STATE =
           ["nodemon", "npm:3.1.4"],\
           ["prettier", "npm:3.3.2"],\
           ["renamer", "npm:5.0.1"],\
-          ["rimraf", "npm:5.0.7"],\
+          ["rimraf", "npm:5.0.9"],\
           ["semantic-release", "npm:24.0.0"],\
           ["source-map-support", "npm:0.5.21"],\
           ["ts-node", "virtual:52cb19500d8a042da63512d919d2be0eeb5288c9f30b94ca77b3ed303f9b3366459934089e787f4be3772ec864b413f0d10930b0a14f66bc7eb0e6f7fbb93921#npm:10.9.2"],\
