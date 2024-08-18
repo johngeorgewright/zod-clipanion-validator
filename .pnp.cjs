@@ -35,7 +35,7 @@ const RAW_RUNTIME_STATE =
           ["@semantic-release/git", "virtual:52cb19500d8a042da63512d919d2be0eeb5288c9f30b94ca77b3ed303f9b3366459934089e787f4be3772ec864b413f0d10930b0a14f66bc7eb0e6f7fbb93921#npm:10.0.1"],\
           ["@semantic-release/github", "virtual:52cb19500d8a042da63512d919d2be0eeb5288c9f30b94ca77b3ed303f9b3366459934089e787f4be3772ec864b413f0d10930b0a14f66bc7eb0e6f7fbb93921#npm:10.1.6"],\
           ["@semantic-release/release-notes-generator", "virtual:52cb19500d8a042da63512d919d2be0eeb5288c9f30b94ca77b3ed303f9b3366459934089e787f4be3772ec864b413f0d10930b0a14f66bc7eb0e6f7fbb93921#npm:14.0.1"],\
-          ["@types/node", "npm:20.14.15"],\
+          ["@types/node", "npm:20.16.0"],\
           ["@types/semantic-release", "npm:20.0.6"],\
           ["@types/source-map-support", "npm:0.5.10"],\
           ["clipanion", "virtual:52cb19500d8a042da63512d919d2be0eeb5288c9f30b94ca77b3ed303f9b3366459934089e787f4be3772ec864b413f0d10930b0a14f66bc7eb0e6f7fbb93921#npm:4.0.0-rc.3"],\
@@ -1919,11 +1919,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:20.14.15", {\
-        "packageLocation": "./.yarn/cache/@types-node-npm-20.14.15-3e9c945d93-87a4a4313e.zip/node_modules/@types/node/",\
+      ["npm:20.16.0", {\
+        "packageLocation": "./.yarn/cache/@types-node-npm-20.16.0-3a4ab24a1c-ad6d50982d.zip/node_modules/@types/node/",\
         "packageDependencies": [\
-          ["@types/node", "npm:20.14.15"],\
-          ["undici-types", "npm:5.26.5"]\
+          ["@types/node", "npm:20.16.0"],\
+          ["undici-types", "npm:6.19.6"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -8957,7 +8957,7 @@ const RAW_RUNTIME_STATE =
           ["@tsconfig/node12", "npm:1.0.9"],\
           ["@tsconfig/node14", "npm:1.0.1"],\
           ["@tsconfig/node16", "npm:1.0.2"],\
-          ["@types/node", "npm:20.14.15"],\
+          ["@types/node", "npm:20.16.0"],\
           ["@types/swc__core", null],\
           ["@types/swc__wasm", null],\
           ["@types/typescript", null],\
@@ -9153,10 +9153,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["undici-types", [\
-      ["npm:5.26.5", {\
-        "packageLocation": "./.yarn/cache/undici-types-npm-5.26.5-de4f7c7bb9-0097779d94.zip/node_modules/undici-types/",\
+      ["npm:6.19.6", {\
+        "packageLocation": "./.yarn/cache/undici-types-npm-6.19.6-9d9ccfb00d-0ea9bc2576.zip/node_modules/undici-types/",\
         "packageDependencies": [\
-          ["undici-types", "npm:5.26.5"]\
+          ["undici-types", "npm:6.19.6"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -9361,7 +9361,7 @@ const RAW_RUNTIME_STATE =
           ["vite", "virtual:c1961c0bda370749924e3a713f609adaed56b2b67abbba0fdac81b5d5bf28568408a7cdb5d245f9da1684c603ea7b81d7c6d2a65e83850cdf96b8ade53a84f77#npm:5.3.2"],\
           ["@types/less", null],\
           ["@types/lightningcss", null],\
-          ["@types/node", "npm:20.14.15"],\
+          ["@types/node", "npm:20.16.0"],\
           ["@types/sass", null],\
           ["@types/stylus", null],\
           ["@types/sugarss", null],\
@@ -9425,7 +9425,7 @@ const RAW_RUNTIME_STATE =
           ["@types/edge-runtime__vm", null],\
           ["@types/happy-dom", null],\
           ["@types/jsdom", null],\
-          ["@types/node", "npm:20.14.15"],\
+          ["@types/node", "npm:20.16.0"],\
           ["@types/vitest__browser", null],\
           ["@types/vitest__ui", null],\
           ["@vitest/browser", null],\
@@ -9797,7 +9797,7 @@ const RAW_RUNTIME_STATE =
           ["@semantic-release/git", "virtual:52cb19500d8a042da63512d919d2be0eeb5288c9f30b94ca77b3ed303f9b3366459934089e787f4be3772ec864b413f0d10930b0a14f66bc7eb0e6f7fbb93921#npm:10.0.1"],\
           ["@semantic-release/github", "virtual:52cb19500d8a042da63512d919d2be0eeb5288c9f30b94ca77b3ed303f9b3366459934089e787f4be3772ec864b413f0d10930b0a14f66bc7eb0e6f7fbb93921#npm:10.1.6"],\
           ["@semantic-release/release-notes-generator", "virtual:52cb19500d8a042da63512d919d2be0eeb5288c9f30b94ca77b3ed303f9b3366459934089e787f4be3772ec864b413f0d10930b0a14f66bc7eb0e6f7fbb93921#npm:14.0.1"],\
-          ["@types/node", "npm:20.14.15"],\
+          ["@types/node", "npm:20.16.0"],\
           ["@types/semantic-release", "npm:20.0.6"],\
           ["@types/source-map-support", "npm:0.5.10"],\
           ["clipanion", "virtual:52cb19500d8a042da63512d919d2be0eeb5288c9f30b94ca77b3ed303f9b3366459934089e787f4be3772ec864b413f0d10930b0a14f66bc7eb0e6f7fbb93921#npm:4.0.0-rc.3"],\
