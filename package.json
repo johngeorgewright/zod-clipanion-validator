@@ -37,7 +37,7 @@
     "@types/node": "20.16.5",
     "@types/semantic-release": "20.0.6",
     "@types/source-map-support": "0.5.10",
-    "clipanion": "4.0.0-rc.3",
+    "clipanion": "4.0.0-rc.4",
     "commitizen": "4.3.0",
     "concurrently": "8.2.2",
     "cz-conventional-changelog": "3.3.0",
