@@ -39,7 +39,7 @@ const RAW_RUNTIME_STATE =
           ["@types/semantic-release", "npm:20.0.6"],\
           ["@types/source-map-support", "npm:0.5.10"],\
           ["clipanion", "virtual:52cb19500d8a042da63512d919d2be0eeb5288c9f30b94ca77b3ed303f9b3366459934089e787f4be3772ec864b413f0d10930b0a14f66bc7eb0e6f7fbb93921#npm:4.0.0-rc.4"],\
-          ["commitizen", "npm:4.3.0"],\
+          ["commitizen", "npm:4.3.1"],\
           ["concurrently", "npm:9.0.1"],\
           ["cz-conventional-changelog", "npm:3.3.0"],\
           ["husky", "npm:9.1.6"],\
@@ -3076,10 +3076,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:4.3.0", {\
-        "packageLocation": "./.yarn/cache/commitizen-npm-4.3.0-3695cdaf66-45a82b7fde.zip/node_modules/commitizen/",\
+      ["npm:4.3.1", {\
+        "packageLocation": "./.yarn/cache/commitizen-npm-4.3.1-eab8087a7a-3feeb9d235.zip/node_modules/commitizen/",\
         "packageDependencies": [\
-          ["commitizen", "npm:4.3.0"],\
+          ["commitizen", "npm:4.3.1"],\
           ["cachedir", "npm:2.3.0"],\
           ["cz-conventional-changelog", "npm:3.3.0"],\
           ["dedent", "npm:0.7.0"],\
@@ -9739,7 +9739,7 @@ const RAW_RUNTIME_STATE =
           ["@types/semantic-release", "npm:20.0.6"],\
           ["@types/source-map-support", "npm:0.5.10"],\
           ["clipanion", "virtual:52cb19500d8a042da63512d919d2be0eeb5288c9f30b94ca77b3ed303f9b3366459934089e787f4be3772ec864b413f0d10930b0a14f66bc7eb0e6f7fbb93921#npm:4.0.0-rc.4"],\
-          ["commitizen", "npm:4.3.0"],\
+          ["commitizen", "npm:4.3.1"],\
           ["concurrently", "npm:9.0.1"],\
           ["cz-conventional-changelog", "npm:3.3.0"],\
           ["husky", "npm:9.1.6"],\
