@@ -40,7 +40,7 @@ const RAW_RUNTIME_STATE =
           ["@types/source-map-support", "npm:0.5.10"],\
           ["clipanion", "virtual:52cb19500d8a042da63512d919d2be0eeb5288c9f30b94ca77b3ed303f9b3366459934089e787f4be3772ec864b413f0d10930b0a14f66bc7eb0e6f7fbb93921#npm:4.0.0-rc.4"],\
           ["commitizen", "npm:4.3.1"],\
-          ["concurrently", "npm:9.0.1"],\
+          ["concurrently", "npm:9.1.0"],\
           ["cz-conventional-changelog", "npm:3.3.0"],\
           ["husky", "npm:9.1.7"],\
           ["lint-staged", "npm:15.2.10"],\
@@ -3104,10 +3104,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["concurrently", [\
-      ["npm:9.0.1", {\
-        "packageLocation": "./.yarn/cache/concurrently-npm-9.0.1-2e44cbf810-aae80b641c.zip/node_modules/concurrently/",\
+      ["npm:9.1.0", {\
+        "packageLocation": "./.yarn/cache/concurrently-npm-9.1.0-9685d07eeb-9ed158095a.zip/node_modules/concurrently/",\
         "packageDependencies": [\
-          ["concurrently", "npm:9.0.1"],\
+          ["concurrently", "npm:9.1.0"],\
           ["chalk", "npm:4.1.2"],\
           ["lodash", "npm:4.17.21"],\
           ["rxjs", "npm:7.8.1"],\
@@ -9750,7 +9750,7 @@ const RAW_RUNTIME_STATE =
           ["@types/source-map-support", "npm:0.5.10"],\
           ["clipanion", "virtual:52cb19500d8a042da63512d919d2be0eeb5288c9f30b94ca77b3ed303f9b3366459934089e787f4be3772ec864b413f0d10930b0a14f66bc7eb0e6f7fbb93921#npm:4.0.0-rc.4"],\
           ["commitizen", "npm:4.3.1"],\
-          ["concurrently", "npm:9.0.1"],\
+          ["concurrently", "npm:9.1.0"],\
           ["cz-conventional-changelog", "npm:3.3.0"],\
           ["husky", "npm:9.1.7"],\
           ["lint-staged", "npm:15.2.10"],\
