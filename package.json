@@ -53,7 +53,7 @@
     "ts-node-test": "0.4.4",
     "typanion": "3.14.0",
     "typescript": "5.7.3",
-    "vitest": "2.1.8",
+    "vitest": "3.0.4",
     "zod": "3.24.1"
   },
   "lint-staged": {
