@@ -54,7 +54,7 @@
     "typanion": "3.14.0",
     "typescript": "5.7.3",
     "vitest": "3.0.5",
-    "zod": "3.24.1"
+    "zod": "3.24.2"
   },
   "lint-staged": {
     "*.{md,json,js,jsx,ts,tsx,yml,yaml}": [
