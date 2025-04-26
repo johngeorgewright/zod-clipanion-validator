@@ -4,13 +4,6 @@ on:
   pull_request:
 
   workflow_call:
-    inputs:
-      build:
-        description: Should it test by building?
-        required: false
-        default: true
-        type: boolean
-
     outputs:
       cache-key:
         description: Cache key

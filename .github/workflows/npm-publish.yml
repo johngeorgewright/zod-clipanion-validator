@@ -7,8 +7,6 @@ on:
 jobs:
   test:
     uses: ./.github/workflows/pull-request.yml
-    with:
-      build: false
 
   publish-npm:
     name: NPM
