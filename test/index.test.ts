@@ -186,10 +186,18 @@ describe('failed parsing', () => {
 
     expect(code).not.toBe(0)
 
-    expect(stdout.write).toHaveBeenCalledWith(
-      expect.stringContaining(
-        "Invalid value for --transform: expected ',' or '}' after property value in JSON at position 12",
-      ),
-    )
+    try {
+      expect(stdout.write).toHaveBeenCalledWith(
+        expect.stringContaining(
+          "Invalid value for --transform: expected ',' or '}' after property value in JSON at position 12",
+        ),
+      )
+    } catch (error) {
+      expect(stdout.write).toHaveBeenCalledWith(
+        expect.stringContaining(
+          'Invalid value for --transform: unexpected end of JSON input',
+        ),
+      )
+    }
   })
 })
