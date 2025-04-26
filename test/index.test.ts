@@ -1,5 +1,13 @@
 import { Cli, Command, Option } from 'clipanion'
-import { beforeEach, expect, test } from 'vitest'
+import {
+  afterEach,
+  beforeEach,
+  describe,
+  expect,
+  MockInstance,
+  test,
+  vi,
+} from 'vitest'
 import { z } from 'zod'
 import { zodClipanionValidator } from '../src/index.js'
 import { withResolvers } from './Promise.js'
@@ -56,7 +64,11 @@ beforeEach(() => {
   cli.register(MyCommand)
 })
 
-test('successful parsing', () => {
+afterEach(() => {
+  vi.restoreAllMocks()
+})
+
+test('successful parsing', async () => {
   expectation = (command) => {
     expect(command.standard).toBe('https://foo.bar.com')
     expect(command.corectionOption).toBe(123)
@@ -65,7 +77,7 @@ test('successful parsing', () => {
     })
   }
 
-  cli.run([
+  const code = await cli.run([
     'my-command',
 
     '--standard',
@@ -78,5 +90,106 @@ test('successful parsing', () => {
     '{"foo":"bar"}',
   ])
 
+  expect(code).toBe(0)
+
   return promise
+})
+
+describe('failed parsing', () => {
+  let stdout: typeof process.stdout & {
+    write: MockInstance<typeof process.stdout.write>
+  }
+
+  beforeEach(() => {
+    stdout = process.stdout as typeof process.stdout & {
+      write: MockInstance<typeof process.stdout.write>
+    }
+    vi.spyOn(stdout, 'write').mockImplementation(() => true)
+  })
+
+  afterEach(() => {
+    vi.restoreAllMocks()
+  })
+
+  test('string types', async () => {
+    const code = await cli.run(
+      [
+        'my-command',
+
+        '--standard',
+        'not a url',
+
+        '--corece',
+        '123',
+
+        '--transform',
+        '{"foo":"bar"}',
+      ],
+      {
+        stdout,
+      },
+    )
+
+    expect(code).not.toBe(0)
+
+    expect(stdout.write).toHaveBeenCalledWith(
+      expect.stringContaining('Invalid value for --standard: invalid url.'),
+    )
+  })
+
+  test('number types', async () => {
+    const code = await cli.run(
+      [
+        'my-command',
+
+        '--standard',
+        'https://foo.bar.com',
+
+        '--corece',
+        'not a number',
+
+        '--transform',
+        '{"foo":"bar"}',
+      ],
+      {
+        stdout,
+      },
+    )
+
+    expect(code).not.toBe(0)
+
+    expect(stdout.write).toHaveBeenCalledWith(
+      expect.stringContaining(
+        'Invalid value for --corece: expected number, received nan.',
+      ),
+    )
+  })
+
+  test('transform types', async () => {
+    const code = await cli.run(
+      [
+        'my-command',
+
+        '--standard',
+        'https://foo.bar.com',
+
+        '--corece',
+        '123',
+
+        '--transform',
+        '{"foo":"bar"',
+      ],
+      {
+        stdout,
+      },
+    )
+
+    expect(code).not.toBe(0)
+
+    expect(stdout.write).toHaveBeenCalledWith(
+      expect.stringContaining(
+        "Invalid value for --transform: expected ',' or '}' after property value in JSON at position 12 (line 1 column 13).",
+      ),
+    )
+  })
 })
