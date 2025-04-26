@@ -15,7 +15,12 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
+  cache:
+    if: github.actor == 'renovate[bot]' || github.actor == 'dependabot[bot]'
+    uses: johngeorgewright/workflows/.github/workflows/yarn-cache.yml@main
+
   yarn-sdk:
+    needs: [cache]
     name: Rebuild Yarn SDKs
     runs-on: ubuntu-latest
     if: github.actor == 'renovate[bot]' || github.actor == 'dependabot[bot]'
@@ -32,16 +37,9 @@ jobs:
 
       - name: Restore cache
         uses: actions/cache@v4
-        id: cache
         with:
-          path: |
-            .yarn/unplugged
-            .yarn/install-state.gz
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-
-      - name: Yarn
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: yarn install --immutable
+          key: ${{ needs.cache.outputs.key }}
+          path: ${{ needs.cache.outputs.path }}
 
       - name: Update SDKs
         run: yarn dlx @yarnpkg/sdks

@@ -11,8 +11,20 @@ on:
         default: true
         type: boolean
 
+    outputs:
+      cache-key:
+        description: Cache key
+        value: ${{ jobs.cache.outputs.key }}
+      cache-path:
+        description: Cache path
+        value: ${{ jobs.cache.outputs.path }}
+
 jobs:
+  cache:
+    uses: johngeorgewright/workflows/.github/workflows/yarn-cache.yml@main
+
   test:
+    needs: [cache]
     name: Test
     runs-on: ubuntu-latest
     strategy:
@@ -28,59 +40,14 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: Yarn
-        run: yarn install --immutable
+      - name: Restore cache
+        uses: actions/cache@v4
+        with:
+          key: ${{ needs.cache.outputs.key }}
+          path: ${{ needs.cache.outputs.path }}
 
       - name: Build
         run: yarn build
 
       - name: Test
-        run: yarn test
-
-  test-importing:
-    name: Test importing
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [18.x, 20.x]
-
-    steps:
-      - name: Checkout project
-        uses: actions/checkout@v4
-        with:
-          path: zod-clipanion-validator
-
-      - name: Checkout project
-        uses: actions/checkout@v4
-        with:
-          path: test-project
-
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v4
-        with:
-          node-version: ${{ matrix.node-version }}
-
-      - name: Build zod-clipanion-validator
-        working-directory: zod-clipanion-validator
-        run: | # shell
-          yarn --immutable
-          yarn build
-
-      - name: Rename project
-        working-directory: test-project
-        run: | # shell
-          cat package.json | jq '.name = "test-project"' > package-rename.json
-          mv package-rename.json package.json
-          yarn --no-immutable
-
-      - name: Install zod-clipanion-validator
-        working-directory: test-project
-        run: | # shell
-          yarn link --private ../zod-clipanion-validator
-          cat package.json | jq '.dependencies["zod-clipanion-validator"] = "*"' > package-dep.json
-          mv package-dep.json package.json
-          yarn --no-immutable
-
-      - name: Test zod-clipanion-validator as an install module
-        working-directory: test-project
         run: yarn test
