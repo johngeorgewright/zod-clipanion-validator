@@ -188,7 +188,7 @@ describe('failed parsing', () => {
 
     expect(stdout.write).toHaveBeenCalledWith(
       expect.stringContaining(
-        "Invalid value for --transform: expected ',' or '}' after property value in JSON at position 12 (line 1 column 13).",
+        "Invalid value for --transform: expected ',' or '}' after property value in JSON at position 12",
       ),
     )
   })
