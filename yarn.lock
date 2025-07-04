@@ -3971,16 +3971,16 @@ __metadata:
     typanion: "npm:3.14.0"
     typescript: "npm:5.8.3"
     vitest: "npm:3.1.2"
-    zod: "npm:3.24.3"
+    zod: "npm:3.25.74"
   peerDependencies:
     typanion: ^3.0.0
     zod: ^3.0.0
   languageName: unknown
   linkType: soft
 
-"zod@npm:3.24.3":
-  version: 3.24.3
-  resolution: "zod@npm:3.24.3"
-  checksum: 10/1b15db625ca633324084f3a8587bfb907043bbca407a09f7d5da6a9781b3838c68e9312b49e91e479d2f8bf04cdda5810803ac9504e3b7ccbec3adf2de625fb8
+"zod@npm:3.25.74":
+  version: 3.25.74
+  resolution: "zod@npm:3.25.74"
+  checksum: 10/2db3efb6ed77996c880486bf966419e3d611808a5972f7f7da599b01f7af55393facee5f6dba1be626a052985b8dbc3c151efc3ee62832067b788946aebd0364
   languageName: node
   linkType: hard
