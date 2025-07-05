@@ -1345,6 +1345,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/signale@npm:1.4.7":
+  version: 1.4.7
+  resolution: "@types/signale@npm:1.4.7"
+  dependencies:
+    "@types/node": "npm:*"
+  checksum: 10/8ebba570b3a82333ca383d177e775b1c4d8113baaced6fe220b2cf96f1340ef4229c5435e93bd4e4fc11cc4418990151c91d0beda75676c8809c4232d4317f63
+  languageName: node
+  linkType: hard
+
 "@types/source-map-support@npm:0.5.10":
   version: 0.5.10
   resolution: "@types/source-map-support@npm:0.5.10"
@@ -5755,7 +5764,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semantic-release@npm:*":
+"semantic-release@npm:*, semantic-release@npm:24.2.6":
   version: 24.2.6
   resolution: "semantic-release@npm:24.2.6"
   dependencies:
@@ -7194,6 +7203,7 @@ __metadata:
     "@commitlint/types": "npm:19.8.1"
     "@types/node": "npm:22.16.0"
     "@types/semantic-release": "npm:21.1.0"
+    "@types/signale": "npm:1.4.7"
     "@types/source-map-support": "npm:0.5.10"
     clipanion: "npm:4.0.0-rc.4"
     husky: "npm:9.1.7"
@@ -7201,6 +7211,7 @@ __metadata:
     nodemon: "npm:3.1.10"
     prettier: "npm:3.6.2"
     rimraf: "npm:6.0.1"
+    semantic-release: "npm:24.2.6"
     ts-node: "npm:10.9.2"
     tslib: "npm:^2.8.1"
     typanion: "npm:3.14.0"

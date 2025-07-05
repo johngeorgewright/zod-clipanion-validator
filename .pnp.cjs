@@ -33,6 +33,7 @@ const RAW_RUNTIME_STATE =
           ["@commitlint/types", "npm:19.8.1"],\
           ["@types/node", "npm:22.16.0"],\
           ["@types/semantic-release", "npm:21.1.0"],\
+          ["@types/signale", "npm:1.4.7"],\
           ["@types/source-map-support", "npm:0.5.10"],\
           ["clipanion", "virtual:52cb19500d8a042da63512d919d2be0eeb5288c9f30b94ca77b3ed303f9b3366459934089e787f4be3772ec864b413f0d10930b0a14f66bc7eb0e6f7fbb93921#npm:4.0.0-rc.4"],\
           ["husky", "npm:9.1.7"],\
@@ -40,6 +41,7 @@ const RAW_RUNTIME_STATE =
           ["nodemon", "npm:3.1.10"],\
           ["prettier", "npm:3.6.2"],\
           ["rimraf", "npm:6.0.1"],\
+          ["semantic-release", "npm:24.2.6"],\
           ["ts-node", "virtual:52cb19500d8a042da63512d919d2be0eeb5288c9f30b94ca77b3ed303f9b3366459934089e787f4be3772ec864b413f0d10930b0a14f66bc7eb0e6f7fbb93921#npm:10.9.2"],\
           ["tslib", "npm:2.8.1"],\
           ["typanion", "npm:3.14.0"],\
@@ -1678,6 +1680,16 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@types/semantic-release", "npm:21.1.0"],\
           ["semantic-release", "npm:24.2.6"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/signale", [\
+      ["npm:1.4.7", {\
+        "packageLocation": "./.yarn/cache/@types-signale-npm-1.4.7-d46a065d69-8ebba570b3.zip/node_modules/@types/signale/",\
+        "packageDependencies": [\
+          ["@types/node", "npm:16.7.13"],\
+          ["@types/signale", "npm:1.4.7"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -8111,6 +8123,7 @@ const RAW_RUNTIME_STATE =
           ["@commitlint/types", "npm:19.8.1"],\
           ["@types/node", "npm:22.16.0"],\
           ["@types/semantic-release", "npm:21.1.0"],\
+          ["@types/signale", "npm:1.4.7"],\
           ["@types/source-map-support", "npm:0.5.10"],\
           ["clipanion", "virtual:52cb19500d8a042da63512d919d2be0eeb5288c9f30b94ca77b3ed303f9b3366459934089e787f4be3772ec864b413f0d10930b0a14f66bc7eb0e6f7fbb93921#npm:4.0.0-rc.4"],\
           ["husky", "npm:9.1.7"],\
@@ -8118,6 +8131,7 @@ const RAW_RUNTIME_STATE =
           ["nodemon", "npm:3.1.10"],\
           ["prettier", "npm:3.6.2"],\
           ["rimraf", "npm:6.0.1"],\
+          ["semantic-release", "npm:24.2.6"],\
           ["ts-node", "virtual:52cb19500d8a042da63512d919d2be0eeb5288c9f30b94ca77b3ed303f9b3366459934089e787f4be3772ec864b413f0d10930b0a14f66bc7eb0e6f7fbb93921#npm:10.9.2"],\
           ["tslib", "npm:2.8.1"],\
           ["typanion", "npm:3.14.0"],\
