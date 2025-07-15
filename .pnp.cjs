@@ -31,7 +31,7 @@ const RAW_RUNTIME_STATE =
           ["@commitlint/cli", "npm:19.8.1"],\
           ["@commitlint/config-conventional", "npm:19.8.1"],\
           ["@commitlint/types", "npm:19.8.1"],\
-          ["@types/node", "npm:22.16.2"],\
+          ["@types/node", "npm:22.16.4"],\
           ["@types/semantic-release", "npm:21.1.0"],\
           ["@types/signale", "npm:1.4.7"],\
           ["@types/source-map-support", "npm:0.5.10"],\
@@ -1656,10 +1656,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:22.16.2", {\
-        "packageLocation": "./.yarn/cache/@types-node-npm-22.16.2-a6e7d9be41-ff15825a69.zip/node_modules/@types/node/",\
+      ["npm:22.16.4", {\
+        "packageLocation": "./.yarn/cache/@types-node-npm-22.16.4-b523097f5b-6d2c133bf1.zip/node_modules/@types/node/",\
         "packageDependencies": [\
-          ["@types/node", "npm:22.16.2"],\
+          ["@types/node", "npm:22.16.4"],\
           ["undici-types", "npm:6.21.0"]\
         ],\
         "linkType": "HARD"\
@@ -7400,7 +7400,7 @@ const RAW_RUNTIME_STATE =
           ["@tsconfig/node12", "npm:1.0.9"],\
           ["@tsconfig/node14", "npm:1.0.1"],\
           ["@tsconfig/node16", "npm:1.0.2"],\
-          ["@types/node", "npm:22.16.2"],\
+          ["@types/node", "npm:22.16.4"],\
           ["@types/swc__core", null],\
           ["@types/swc__wasm", null],\
           ["@types/typescript", null],\
@@ -7734,7 +7734,7 @@ const RAW_RUNTIME_STATE =
           ["@types/jiti", null],\
           ["@types/less", null],\
           ["@types/lightningcss", null],\
-          ["@types/node", "npm:22.16.2"],\
+          ["@types/node", "npm:22.16.4"],\
           ["@types/sass", null],\
           ["@types/sass-embedded", null],\
           ["@types/stylus", null],\
@@ -7818,7 +7818,7 @@ const RAW_RUNTIME_STATE =
           ["@types/edge-runtime__vm", null],\
           ["@types/happy-dom", null],\
           ["@types/jsdom", null],\
-          ["@types/node", "npm:22.16.2"],\
+          ["@types/node", "npm:22.16.4"],\
           ["@types/vitest__browser", null],\
           ["@types/vitest__ui", null],\
           ["@vitest/browser", null],\
@@ -8121,7 +8121,7 @@ const RAW_RUNTIME_STATE =
           ["@commitlint/cli", "npm:19.8.1"],\
           ["@commitlint/config-conventional", "npm:19.8.1"],\
           ["@commitlint/types", "npm:19.8.1"],\
-          ["@types/node", "npm:22.16.2"],\
+          ["@types/node", "npm:22.16.4"],\
           ["@types/semantic-release", "npm:21.1.0"],\
           ["@types/signale", "npm:1.4.7"],\
           ["@types/source-map-support", "npm:0.5.10"],\
