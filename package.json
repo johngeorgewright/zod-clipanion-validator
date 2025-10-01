@@ -37,7 +37,7 @@
     "nodemon": "3.1.10",
     "prettier": "3.6.2",
     "rimraf": "6.0.1",
-    "semantic-release": "24.2.8",
+    "semantic-release": "24.2.9",
     "ts-node": "10.9.2",
     "typanion": "3.14.0",
     "typescript": "5.9.2",
