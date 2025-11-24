@@ -40,7 +40,7 @@ const RAW_RUNTIME_STATE =
           ["lint-staged", "npm:15.5.2"],\
           ["nodemon", "npm:3.1.11"],\
           ["prettier", "npm:3.6.2"],\
-          ["rimraf", "npm:6.1.0"],\
+          ["rimraf", "npm:6.1.2"],\
           ["semantic-release", "npm:24.2.9"],\
           ["ts-node", "virtual:52cb19500d8a042da63512d919d2be0eeb5288c9f30b94ca77b3ed303f9b3366459934089e787f4be3772ec864b413f0d10930b0a14f66bc7eb0e6f7fbb93921#npm:10.9.2"],\
           ["tslib", "npm:2.8.1"],\
@@ -3520,15 +3520,6 @@ const RAW_RUNTIME_STATE =
           ["signal-exit", "npm:4.0.2"]\
         ],\
         "linkType": "HARD"\
-      }],\
-      ["npm:3.3.1", {\
-        "packageLocation": "./.yarn/cache/foreground-child-npm-3.3.1-b7775fda04-427b33f997.zip/node_modules/foreground-child/",\
-        "packageDependencies": [\
-          ["cross-spawn", "npm:7.0.6"],\
-          ["foreground-child", "npm:3.3.1"],\
-          ["signal-exit", "npm:4.0.2"]\
-        ],\
-        "linkType": "HARD"\
       }]\
     ]],\
     ["from2", [\
@@ -3725,15 +3716,12 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:11.0.3", {\
-        "packageLocation": "./.yarn/cache/glob-npm-11.0.3-f68382b3cc-2ae536c136.zip/node_modules/glob/",\
+      ["npm:13.0.0", {\
+        "packageLocation": "./.yarn/cache/glob-npm-13.0.0-8e50143ca8-de390721d2.zip/node_modules/glob/",\
         "packageDependencies": [\
-          ["foreground-child", "npm:3.3.1"],\
-          ["glob", "npm:11.0.3"],\
-          ["jackspeak", "npm:4.1.1"],\
+          ["glob", "npm:13.0.0"],\
           ["minimatch", "npm:10.1.1"],\
           ["minipass", "npm:7.1.2"],\
-          ["package-json-from-dist", "npm:1.0.0"],\
           ["path-scurry", "npm:2.0.0"]\
         ],\
         "linkType": "HARD"\
@@ -4407,14 +4395,6 @@ const RAW_RUNTIME_STATE =
           ["@isaacs/cliui", "npm:8.0.2"],\
           ["@pkgjs/parseargs", "npm:0.11.0"],\
           ["jackspeak", "npm:3.4.3"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
-      ["npm:4.1.1", {\
-        "packageLocation": "./.yarn/cache/jackspeak-npm-4.1.1-582e5d1ed7-ffceb270ec.zip/node_modules/jackspeak/",\
-        "packageDependencies": [\
-          ["@isaacs/cliui", "npm:8.0.2"],\
-          ["jackspeak", "npm:4.1.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6565,12 +6545,12 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:6.1.0", {\
-        "packageLocation": "./.yarn/cache/rimraf-npm-6.1.0-e5f11dcd79-ce376c041e.zip/node_modules/rimraf/",\
+      ["npm:6.1.2", {\
+        "packageLocation": "./.yarn/cache/rimraf-npm-6.1.2-ff31ae67d7-add8e566fe.zip/node_modules/rimraf/",\
         "packageDependencies": [\
-          ["glob", "npm:11.0.3"],\
+          ["glob", "npm:13.0.0"],\
           ["package-json-from-dist", "npm:1.0.1"],\
-          ["rimraf", "npm:6.1.0"]\
+          ["rimraf", "npm:6.1.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -8314,7 +8294,7 @@ const RAW_RUNTIME_STATE =
           ["lint-staged", "npm:15.5.2"],\
           ["nodemon", "npm:3.1.11"],\
           ["prettier", "npm:3.6.2"],\
-          ["rimraf", "npm:6.1.0"],\
+          ["rimraf", "npm:6.1.2"],\
           ["semantic-release", "npm:24.2.9"],\
           ["ts-node", "virtual:52cb19500d8a042da63512d919d2be0eeb5288c9f30b94ca77b3ed303f9b3366459934089e787f4be3772ec864b413f0d10930b0a14f66bc7eb0e6f7fbb93921#npm:10.9.2"],\
           ["tslib", "npm:2.8.1"],\
