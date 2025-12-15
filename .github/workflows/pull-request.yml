@@ -34,7 +34,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: Restore cache
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           key: ${{ needs.cache.outputs.key }}
           path: ${{ needs.cache.outputs.path }}
