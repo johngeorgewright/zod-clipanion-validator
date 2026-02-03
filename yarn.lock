@@ -1336,12 +1336,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:22.19.8":
-  version: 22.19.8
-  resolution: "@types/node@npm:22.19.8"
+"@types/node@npm:24.10.10":
+  version: 24.10.10
+  resolution: "@types/node@npm:24.10.10"
   dependencies:
-    undici-types: "npm:~6.21.0"
-  checksum: 10/a61c68d434871d4a13496e3607502b2ff8e2ff69dca7e09228de5bea3bc95eb627d09243a8cff8e0bf9ff1fa13baaf0178531748f59ae81f0569c7a2f053bfa5
+    undici-types: "npm:~7.16.0"
+  checksum: 10/0b5beb828c0d91c446f55ab6e4ca15527de0437c6cdd2faf55aa6da8666782523d4e1bf5cc9e366ded0b939563032c5db4f7d34131b0446b984325e82d1d908e
   languageName: node
   linkType: hard
 
@@ -6770,10 +6770,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"undici-types@npm:~6.21.0":
-  version: 6.21.0
-  resolution: "undici-types@npm:6.21.0"
-  checksum: 10/ec8f41aa4359d50f9b59fa61fe3efce3477cc681908c8f84354d8567bb3701fafdddf36ef6bff307024d3feb42c837cf6f670314ba37fc8145e219560e473d14
+"undici-types@npm:~7.16.0":
+  version: 7.16.0
+  resolution: "undici-types@npm:7.16.0"
+  checksum: 10/db43439f69c2d94cc29f75cbfe9de86df87061d6b0c577ebe9bb3255f49b22c50162a7d7eb413b0458b6510b8ca299ac7cff38c3a29fbd31af9f504bcf7fbc0d
   languageName: node
   linkType: hard
 
@@ -7261,7 +7261,7 @@ __metadata:
     "@commitlint/cli": "npm:19.8.1"
     "@commitlint/config-conventional": "npm:19.8.1"
     "@commitlint/types": "npm:19.8.1"
-    "@types/node": "npm:22.19.8"
+    "@types/node": "npm:24.10.10"
     "@types/semantic-release": "npm:21.1.0"
     "@types/signale": "npm:1.4.7"
     "@types/source-map-support": "npm:0.5.10"
