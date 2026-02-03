@@ -24,9 +24,9 @@
   },
   "homepage": "https://github.com/johngeorgewright/zod-clipanion-validator#readme",
   "devDependencies": {
-    "@commitlint/cli": "19.8.1",
-    "@commitlint/config-conventional": "19.8.1",
-    "@commitlint/types": "19.8.1",
+    "@commitlint/cli": "20.4.1",
+    "@commitlint/config-conventional": "20.4.1",
+    "@commitlint/types": "20.4.0",
     "@types/node": "22.19.8",
     "@types/semantic-release": "21.1.0",
     "@types/signale": "1.4.7",
