@@ -1336,12 +1336,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:22.19.6":
-  version: 22.19.6
-  resolution: "@types/node@npm:22.19.6"
+"@types/node@npm:22.19.8":
+  version: 22.19.8
+  resolution: "@types/node@npm:22.19.8"
   dependencies:
     undici-types: "npm:~6.21.0"
-  checksum: 10/a5bac443b2c7ca4ceb4a381618c37012d71add696e98351be698aa81e00f20a09fb4aee5bc07f11472080e663602b18ed02233f45242cde9b4eda13140629258
+  checksum: 10/a61c68d434871d4a13496e3607502b2ff8e2ff69dca7e09228de5bea3bc95eb627d09243a8cff8e0bf9ff1fa13baaf0178531748f59ae81f0569c7a2f053bfa5
   languageName: node
   linkType: hard
 
@@ -7261,7 +7261,7 @@ __metadata:
     "@commitlint/cli": "npm:19.8.1"
     "@commitlint/config-conventional": "npm:19.8.1"
     "@commitlint/types": "npm:19.8.1"
-    "@types/node": "npm:22.19.6"
+    "@types/node": "npm:22.19.8"
     "@types/semantic-release": "npm:21.1.0"
     "@types/signale": "npm:1.4.7"
     "@types/source-map-support": "npm:0.5.10"
