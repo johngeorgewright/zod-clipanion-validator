@@ -1,5 +1,10 @@
-import { makeValidator, StrictValidator, ValidationState } from 'typanion'
-import { infer as Infer, ZodTypeAny } from 'zod'
+import {
+  makeValidator,
+  type StrictValidator,
+  type ValidationState,
+} from 'typanion'
+import { safeParse } from 'zod'
+import { type output, type $ZodType } from 'zod/v4/core'
 
 export function pushTypanionError(
   { errors, p }: ValidationState = {},
@@ -9,12 +14,12 @@ export function pushTypanionError(
   return false
 }
 
-export function zodClipanionValidator<I, O extends ZodTypeAny>(
+export function zodClipanionValidator<I, O extends $ZodType<any>>(
   parser: O,
-): StrictValidator<I, Infer<O>> {
+): StrictValidator<I, output<O>> {
   return makeValidator({
-    test: (value, state): value is Infer<O> => {
-      const parseResult = parser.safeParse(value)
+    test: (value, state): value is output<O> => {
+      const parseResult = safeParse(parser, value)
 
       if (!parseResult.success) {
         for (const issue of parseResult.error.issues) {
