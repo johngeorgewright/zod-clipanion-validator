@@ -27,7 +27,7 @@ class MyCommand extends Command {
 
   standard = Option.String('-s,--standard', {
     required: true,
-    validator: zodClipanionValidator(z.string().url()),
+    validator: zodClipanionValidator(z.url()),
   })
 
   corectionOption = Option.String('-c,--corece', {
@@ -133,7 +133,7 @@ describe('failed parsing', () => {
     expect(code).not.toBe(0)
 
     expect(stdout.write).toHaveBeenCalledWith(
-      expect.stringContaining('Invalid value for --standard: invalid url.'),
+      expect.stringContaining('Invalid value for --standard: invalid URL.'),
     )
   })
 
@@ -160,7 +160,7 @@ describe('failed parsing', () => {
 
     expect(stdout.write).toHaveBeenCalledWith(
       expect.stringContaining(
-        'Invalid value for --corece: expected number, received nan.',
+        'Invalid value for --corece: invalid input: expected number, received NaN.',
       ),
     )
   })
