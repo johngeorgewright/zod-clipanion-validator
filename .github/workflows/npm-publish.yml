@@ -30,9 +30,7 @@ jobs:
           node-version-file: .nvmrc
 
       - name: Setup Registries
-        run: |
-          yarn config set --home 'npmRegistries["https://registry.npmjs.org"].npmAuthToken' '${{ secrets.NPM_TOKEN }}'
-          yarn config set --home npmPublishRegistry https://registry.npmjs.org
+        run: yarn config set --home npmPublishRegistry https://registry.npmjs.org
 
       - name: Restore cache
         uses: actions/cache@v5
