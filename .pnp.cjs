@@ -31,7 +31,7 @@ const RAW_RUNTIME_STATE =
           ["@commitlint/cli", "npm:20.4.1"],\
           ["@commitlint/config-conventional", "npm:20.4.1"],\
           ["@commitlint/types", "npm:20.4.0"],\
-          ["@types/node", "npm:24.10.10"],\
+          ["@types/node", "npm:24.10.12"],\
           ["clipanion", "virtual:52cb19500d8a042da63512d919d2be0eeb5288c9f30b94ca77b3ed303f9b3366459934089e787f4be3772ec864b413f0d10930b0a14f66bc7eb0e6f7fbb93921#npm:4.0.0-rc.4"],\
           ["husky", "npm:9.1.7"],\
           ["lint-staged", "npm:16.2.7"],\
@@ -1711,10 +1711,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/node", [\
-      ["npm:24.10.10", {\
-        "packageLocation": "./.yarn/cache/@types-node-npm-24.10.10-c15756552a-0b5beb828c.zip/node_modules/@types/node/",\
+      ["npm:24.10.12", {\
+        "packageLocation": "./.yarn/cache/@types-node-npm-24.10.12-efbd18035a-94231e8ff4.zip/node_modules/@types/node/",\
         "packageDependencies": [\
-          ["@types/node", "npm:24.10.10"],\
+          ["@types/node", "npm:24.10.12"],\
           ["undici-types", "npm:7.16.0"]\
         ],\
         "linkType": "HARD"\
@@ -7069,7 +7069,7 @@ const RAW_RUNTIME_STATE =
           ["@tsconfig/node12", "npm:1.0.9"],\
           ["@tsconfig/node14", "npm:1.0.1"],\
           ["@tsconfig/node16", "npm:1.0.2"],\
-          ["@types/node", "npm:24.10.10"],\
+          ["@types/node", "npm:24.10.12"],\
           ["@types/swc__core", null],\
           ["@types/swc__wasm", null],\
           ["@types/typescript", null],\
@@ -7378,7 +7378,7 @@ const RAW_RUNTIME_STATE =
           ["@types/jiti", null],\
           ["@types/less", null],\
           ["@types/lightningcss", null],\
-          ["@types/node", "npm:24.10.10"],\
+          ["@types/node", "npm:24.10.12"],\
           ["@types/sass", null],\
           ["@types/sass-embedded", null],\
           ["@types/stylus", null],\
@@ -7447,7 +7447,7 @@ const RAW_RUNTIME_STATE =
           ["@types/edge-runtime__vm", null],\
           ["@types/happy-dom", null],\
           ["@types/jsdom", null],\
-          ["@types/node", "npm:24.10.10"],\
+          ["@types/node", "npm:24.10.12"],\
           ["@types/opentelemetry__api", null],\
           ["@types/vitest__browser-playwright", null],\
           ["@types/vitest__browser-preview", null],\
@@ -7738,7 +7738,7 @@ const RAW_RUNTIME_STATE =
           ["@commitlint/cli", "npm:20.4.1"],\
           ["@commitlint/config-conventional", "npm:20.4.1"],\
           ["@commitlint/types", "npm:20.4.0"],\
-          ["@types/node", "npm:24.10.10"],\
+          ["@types/node", "npm:24.10.12"],\
           ["clipanion", "virtual:52cb19500d8a042da63512d919d2be0eeb5288c9f30b94ca77b3ed303f9b3366459934089e787f4be3772ec864b413f0d10930b0a14f66bc7eb0e6f7fbb93921#npm:4.0.0-rc.4"],\
           ["husky", "npm:9.1.7"],\
           ["lint-staged", "npm:16.2.7"],\
