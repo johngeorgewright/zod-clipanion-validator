@@ -28,8 +28,8 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@commitlint/cli", "npm:20.4.1"],\
-          ["@commitlint/config-conventional", "npm:20.4.1"],\
+          ["@commitlint/cli", "npm:20.4.2"],\
+          ["@commitlint/config-conventional", "npm:20.4.2"],\
           ["@commitlint/types", "npm:20.4.0"],\
           ["@types/node", "npm:24.10.13"],\
           ["clipanion", "virtual:52cb19500d8a042da63512d919d2be0eeb5288c9f30b94ca77b3ed303f9b3366459934089e787f4be3772ec864b413f0d10930b0a14f66bc7eb0e6f7fbb93921#npm:4.0.0-rc.4"],\
@@ -149,12 +149,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@commitlint/cli", [\
-      ["npm:20.4.1", {\
-        "packageLocation": "./.yarn/cache/@commitlint-cli-npm-20.4.1-f7cadc47aa-1779ec9f7e.zip/node_modules/@commitlint/cli/",\
+      ["npm:20.4.2", {\
+        "packageLocation": "./.yarn/cache/@commitlint-cli-npm-20.4.2-e97a504283-8e6f4885bd.zip/node_modules/@commitlint/cli/",\
         "packageDependencies": [\
-          ["@commitlint/cli", "npm:20.4.1"],\
+          ["@commitlint/cli", "npm:20.4.2"],\
           ["@commitlint/format", "npm:20.4.0"],\
-          ["@commitlint/lint", "npm:20.4.1"],\
+          ["@commitlint/lint", "npm:20.4.2"],\
           ["@commitlint/load", "npm:20.4.0"],\
           ["@commitlint/read", "npm:20.4.0"],\
           ["@commitlint/types", "npm:20.4.0"],\
@@ -165,10 +165,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@commitlint/config-conventional", [\
-      ["npm:20.4.1", {\
-        "packageLocation": "./.yarn/cache/@commitlint-config-conventional-npm-20.4.1-9a23a4d3c8-fbef5f0858.zip/node_modules/@commitlint/config-conventional/",\
+      ["npm:20.4.2", {\
+        "packageLocation": "./.yarn/cache/@commitlint-config-conventional-npm-20.4.2-51e492a65d-60d2f25db3.zip/node_modules/@commitlint/config-conventional/",\
         "packageDependencies": [\
-          ["@commitlint/config-conventional", "npm:20.4.1"],\
+          ["@commitlint/config-conventional", "npm:20.4.2"],\
           ["@commitlint/types", "npm:20.4.0"],\
           ["conventional-changelog-conventionalcommits", "npm:9.1.0"]\
         ],\
@@ -233,13 +233,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@commitlint/lint", [\
-      ["npm:20.4.1", {\
-        "packageLocation": "./.yarn/cache/@commitlint-lint-npm-20.4.1-4d7472b8fa-cad34b7d90.zip/node_modules/@commitlint/lint/",\
+      ["npm:20.4.2", {\
+        "packageLocation": "./.yarn/cache/@commitlint-lint-npm-20.4.2-4265b5c7a8-862d7ed2c7.zip/node_modules/@commitlint/lint/",\
         "packageDependencies": [\
           ["@commitlint/is-ignored", "npm:20.4.1"],\
-          ["@commitlint/lint", "npm:20.4.1"],\
+          ["@commitlint/lint", "npm:20.4.2"],\
           ["@commitlint/parse", "npm:20.4.1"],\
-          ["@commitlint/rules", "npm:20.4.1"],\
+          ["@commitlint/rules", "npm:20.4.2"],\
           ["@commitlint/types", "npm:20.4.0"]\
         ],\
         "linkType": "HARD"\
@@ -314,12 +314,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@commitlint/rules", [\
-      ["npm:20.4.1", {\
-        "packageLocation": "./.yarn/cache/@commitlint-rules-npm-20.4.1-53d6ecdb78-e383cc925a.zip/node_modules/@commitlint/rules/",\
+      ["npm:20.4.2", {\
+        "packageLocation": "./.yarn/cache/@commitlint-rules-npm-20.4.2-8aa708337a-e6eba9aa48.zip/node_modules/@commitlint/rules/",\
         "packageDependencies": [\
           ["@commitlint/ensure", "npm:20.4.1"],\
           ["@commitlint/message", "npm:20.4.0"],\
-          ["@commitlint/rules", "npm:20.4.1"],\
+          ["@commitlint/rules", "npm:20.4.2"],\
           ["@commitlint/to-lines", "npm:20.0.0"],\
           ["@commitlint/types", "npm:20.4.0"]\
         ],\
@@ -7780,8 +7780,8 @@ const RAW_RUNTIME_STATE =
       ["workspace:.", {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@commitlint/cli", "npm:20.4.1"],\
-          ["@commitlint/config-conventional", "npm:20.4.1"],\
+          ["@commitlint/cli", "npm:20.4.2"],\
+          ["@commitlint/config-conventional", "npm:20.4.2"],\
           ["@commitlint/types", "npm:20.4.0"],\
           ["@types/node", "npm:24.10.13"],\
           ["clipanion", "virtual:52cb19500d8a042da63512d919d2be0eeb5288c9f30b94ca77b3ed303f9b3366459934089e787f4be3772ec864b413f0d10930b0a14f66bc7eb0e6f7fbb93921#npm:4.0.0-rc.4"],\
