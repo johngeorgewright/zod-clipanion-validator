@@ -34,7 +34,7 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:24.12.0"],\
           ["clipanion", "virtual:52cb19500d8a042da63512d919d2be0eeb5288c9f30b94ca77b3ed303f9b3366459934089e787f4be3772ec864b413f0d10930b0a14f66bc7eb0e6f7fbb93921#npm:4.0.0-rc.4"],\
           ["husky", "npm:9.1.7"],\
-          ["lint-staged", "npm:16.3.2"],\
+          ["lint-staged", "npm:16.3.4"],\
           ["nodemon", "npm:3.1.14"],\
           ["prettier", "npm:3.8.1"],\
           ["rimraf", "npm:6.1.3"],\
@@ -4473,15 +4473,15 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["lint-staged", [\
-      ["npm:16.3.2", {\
-        "packageLocation": "./.yarn/cache/lint-staged-npm-16.3.2-66096e73a0-41497d746e.zip/node_modules/lint-staged/",\
+      ["npm:16.3.4", {\
+        "packageLocation": "./.yarn/cache/lint-staged-npm-16.3.4-635c18a02b-15d2baf941.zip/node_modules/lint-staged/",\
         "packageDependencies": [\
           ["commander", "npm:14.0.3"],\
-          ["lint-staged", "npm:16.3.2"],\
+          ["lint-staged", "npm:16.3.4"],\
           ["listr2", "npm:9.0.5"],\
           ["micromatch", "npm:4.0.8"],\
           ["string-argv", "npm:0.3.2"],\
-          ["tinyexec", "npm:1.0.2"],\
+          ["tinyexec", "npm:1.0.4"],\
           ["yaml", "npm:2.8.2"]\
         ],\
         "linkType": "HARD"\
@@ -7042,6 +7042,13 @@ const RAW_RUNTIME_STATE =
           ["tinyexec", "npm:1.0.2"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:1.0.4", {\
+        "packageLocation": "./.yarn/cache/tinyexec-npm-1.0.4-c1df9ff8b1-ccebe4044e.zip/node_modules/tinyexec/",\
+        "packageDependencies": [\
+          ["tinyexec", "npm:1.0.4"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["tinyglobby", [\
@@ -7801,7 +7808,7 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:24.12.0"],\
           ["clipanion", "virtual:52cb19500d8a042da63512d919d2be0eeb5288c9f30b94ca77b3ed303f9b3366459934089e787f4be3772ec864b413f0d10930b0a14f66bc7eb0e6f7fbb93921#npm:4.0.0-rc.4"],\
           ["husky", "npm:9.1.7"],\
-          ["lint-staged", "npm:16.3.2"],\
+          ["lint-staged", "npm:16.3.4"],\
           ["nodemon", "npm:3.1.14"],\
           ["prettier", "npm:3.8.1"],\
           ["rimraf", "npm:6.1.3"],\
