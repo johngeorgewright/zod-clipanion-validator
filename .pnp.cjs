@@ -34,7 +34,7 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:24.12.0"],\
           ["clipanion", "virtual:52cb19500d8a042da63512d919d2be0eeb5288c9f30b94ca77b3ed303f9b3366459934089e787f4be3772ec864b413f0d10930b0a14f66bc7eb0e6f7fbb93921#npm:4.0.0-rc.4"],\
           ["husky", "npm:9.1.7"],\
-          ["lint-staged", "npm:16.3.4"],\
+          ["lint-staged", "npm:16.4.0"],\
           ["nodemon", "npm:3.1.14"],\
           ["prettier", "npm:3.8.1"],\
           ["rimraf", "npm:6.1.3"],\
@@ -4357,13 +4357,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["lint-staged", [\
-      ["npm:16.3.4", {\
-        "packageLocation": "./.yarn/cache/lint-staged-npm-16.3.4-635c18a02b-15d2baf941.zip/node_modules/lint-staged/",\
+      ["npm:16.4.0", {\
+        "packageLocation": "./.yarn/cache/lint-staged-npm-16.4.0-bc70d40d4b-eb7aa0d43e.zip/node_modules/lint-staged/",\
         "packageDependencies": [\
           ["commander", "npm:14.0.3"],\
-          ["lint-staged", "npm:16.3.4"],\
+          ["lint-staged", "npm:16.4.0"],\
           ["listr2", "npm:9.0.5"],\
-          ["micromatch", "npm:4.0.8"],\
+          ["picomatch", "npm:4.0.3"],\
           ["string-argv", "npm:0.3.2"],\
           ["tinyexec", "npm:1.0.4"],\
           ["yaml", "npm:2.8.2"]\
@@ -7674,7 +7674,7 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:24.12.0"],\
           ["clipanion", "virtual:52cb19500d8a042da63512d919d2be0eeb5288c9f30b94ca77b3ed303f9b3366459934089e787f4be3772ec864b413f0d10930b0a14f66bc7eb0e6f7fbb93921#npm:4.0.0-rc.4"],\
           ["husky", "npm:9.1.7"],\
-          ["lint-staged", "npm:16.3.4"],\
+          ["lint-staged", "npm:16.4.0"],\
           ["nodemon", "npm:3.1.14"],\
           ["prettier", "npm:3.8.1"],\
           ["rimraf", "npm:6.1.3"],\
