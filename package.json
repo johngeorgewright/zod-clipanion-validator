@@ -24,9 +24,9 @@
   },
   "homepage": "https://github.com/johngeorgewright/zod-clipanion-validator#readme",
   "devDependencies": {
-    "@commitlint/cli": "20.4.4",
-    "@commitlint/config-conventional": "20.4.4",
-    "@commitlint/types": "20.4.4",
+    "@commitlint/cli": "20.5.0",
+    "@commitlint/config-conventional": "20.5.0",
+    "@commitlint/types": "20.5.0",
     "@types/node": "^24.0.0",
     "clipanion": "4.0.0-rc.4",
     "husky": "9.1.7",
