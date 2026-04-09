@@ -38,7 +38,7 @@
     "ts-node": "10.9.2",
     "typanion": "3.14.0",
     "typescript": "5.9.3",
-    "vitest": "4.1.2",
+    "vitest": "4.1.4",
     "zod": "4.3.6"
   },
   "lint-staged": {
