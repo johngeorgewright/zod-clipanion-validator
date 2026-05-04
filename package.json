@@ -39,7 +39,7 @@
     "typanion": "3.14.0",
     "typescript": "5.9.3",
     "vitest": "4.1.5",
-    "zod": "4.4.1"
+    "zod": "4.4.3"
   },
   "lint-staged": {
     "*.{md,json,js,jsx,ts,tsx,yml,yaml}": [
