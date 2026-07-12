@@ -31,7 +31,7 @@ const RAW_RUNTIME_STATE =
           ["@commitlint/cli", "npm:20.5.3"],\
           ["@commitlint/config-conventional", "npm:20.5.3"],\
           ["@commitlint/types", "npm:20.5.0"],\
-          ["@types/node", "npm:24.12.4"],\
+          ["@types/node", "npm:24.13.3"],\
           ["clipanion", "virtual:52cb19500d8a042da63512d919d2be0eeb5288c9f30b94ca77b3ed303f9b3366459934089e787f4be3772ec864b413f0d10930b0a14f66bc7eb0e6f7fbb93921#npm:4.0.0-rc.4"],\
           ["husky", "npm:9.1.7"],\
           ["lint-staged", "npm:16.4.0"],\
@@ -1505,11 +1505,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/node", [\
-      ["npm:24.12.4", {\
-        "packageLocation": "./.yarn/cache/@types-node-npm-24.12.4-fb0c00261b-4e5ce6faaf.zip/node_modules/@types/node/",\
+      ["npm:24.13.3", {\
+        "packageLocation": "./.yarn/cache/@types-node-npm-24.13.3-b512a0bbeb-cfa6ed1e16.zip/node_modules/@types/node/",\
         "packageDependencies": [\
-          ["@types/node", "npm:24.12.4"],\
-          ["undici-types", "npm:7.16.0"]\
+          ["@types/node", "npm:24.13.3"],\
+          ["undici-types", "npm:7.18.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6938,7 +6938,7 @@ const RAW_RUNTIME_STATE =
           ["@tsconfig/node12", "npm:1.0.9"],\
           ["@tsconfig/node14", "npm:1.0.1"],\
           ["@tsconfig/node16", "npm:1.0.2"],\
-          ["@types/node", "npm:24.12.4"],\
+          ["@types/node", "npm:24.13.3"],\
           ["@types/swc__core", null],\
           ["@types/swc__wasm", null],\
           ["@types/typescript", null],\
@@ -7079,10 +7079,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["undici-types", [\
-      ["npm:7.16.0", {\
-        "packageLocation": "./.yarn/cache/undici-types-npm-7.16.0-0e23b08124-db43439f69.zip/node_modules/undici-types/",\
+      ["npm:7.18.2", {\
+        "packageLocation": "./.yarn/cache/undici-types-npm-7.18.2-3e6d69d829-e61a5918f6.zip/node_modules/undici-types/",\
         "packageDependencies": [\
-          ["undici-types", "npm:7.16.0"]\
+          ["undici-types", "npm:7.18.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -7247,7 +7247,7 @@ const RAW_RUNTIME_STATE =
           ["@types/esbuild", null],\
           ["@types/jiti", null],\
           ["@types/less", null],\
-          ["@types/node", "npm:24.12.4"],\
+          ["@types/node", "npm:24.13.3"],\
           ["@types/sass", null],\
           ["@types/sass-embedded", null],\
           ["@types/stylus", null],\
@@ -7319,7 +7319,7 @@ const RAW_RUNTIME_STATE =
           ["@types/edge-runtime__vm", null],\
           ["@types/happy-dom", null],\
           ["@types/jsdom", null],\
-          ["@types/node", "npm:24.12.4"],\
+          ["@types/node", "npm:24.13.3"],\
           ["@types/opentelemetry__api", null],\
           ["@types/vite", null],\
           ["@types/vitest__browser-playwright", null],\
@@ -7620,7 +7620,7 @@ const RAW_RUNTIME_STATE =
           ["@commitlint/cli", "npm:20.5.3"],\
           ["@commitlint/config-conventional", "npm:20.5.3"],\
           ["@commitlint/types", "npm:20.5.0"],\
-          ["@types/node", "npm:24.12.4"],\
+          ["@types/node", "npm:24.13.3"],\
           ["clipanion", "virtual:52cb19500d8a042da63512d919d2be0eeb5288c9f30b94ca77b3ed303f9b3366459934089e787f4be3772ec864b413f0d10930b0a14f66bc7eb0e6f7fbb93921#npm:4.0.0-rc.4"],\
           ["husky", "npm:9.1.7"],\
           ["lint-staged", "npm:16.4.0"],\
